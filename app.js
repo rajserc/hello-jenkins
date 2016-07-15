@@ -6,6 +6,7 @@ app.get('/', function (req, res) {
   res.send('hello jenkins');
 });
  
+var something = "nothing";
  
 app.listen(process.env.PORT || 5000);
  
